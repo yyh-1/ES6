@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+
+  <div id="img2">
+    <img src="./img/head1.png" alt="">
+    <div class="left1">
+      <div class="text1">主站</div>
+      <div class="text1">番剧</div>
+      <div class="text1">游戏中心</div>
+      <div class="text1">直播</div>
+      <div class="text1">会员购</div>
+      <div class="text1">漫画</div>
+      <div class="text1">赛事</div>
+      <div class="text1">下载APP</div>
+    </div>
+    <input type="text" placeholder="  我拯救了我的发际线 ！">
+    <button class="btn1"><img src="./img/al1.png" alt=""></button>
+    <div class="right1">
+      <img src="./img/akari.jpg" alt="">
+      <div class="text2">登录</div>
+      <div class="text3">注册</div>
+      <div class="btn2"><p>投稿</p></div>
+    </div>
+  </div>
+
+  <div id="app3">
+    <div class="left"></div>
+    <div class="middle"></div>
+    <div class="right"></div>
+  </div>
+
+  <div id="app">
+    <ul class="video-list">
+      <li class="video">
+        <div class="poster">
+          <img src="./img/02db4810568075982cb12f0de8b20a3f91d836e9.jpg@257w_145h_1c_100q.webp" alt="" class="poster">
+          <div class="video-info">
+            <div class="play">6.5万</div>
+            <div class="likes">1545</div>
+          </div>
+          <div class="mask">
+            <div class="line">
+              <div class="bottom"></div>
+              <div class="top"></div>
+            </div>
+          </div>
+        </div>
+        <div class="title">【蓝光1080P】假面骑士超英雄祭2019完整版 超燃现场（不含战队）</div>
+        <div class="up">up 開心小青</div>
+      </li>
+    </ul>
+  </div>
+
+
+
+  <div id="img1">
+    <a><img src="./img/b09938133364af2fb6d6c02c92af3678.jpg" alt=""></a>
+  </div>
+  <div id="app2">
+    <ul class="banner-list">
+      <li class="banner">
+        <img src="./img/1.jpg" alt="点开有彩蛋！" />
+        <div class="mask"></div>
+        <span class="title">点开有彩蛋！</span>
+      </li>
+      <li class="banner">
+        <img src="./img/2.jpg" alt="G.E.M.邓紫棋新歌MV上线！" />
+        <div class="mask"></div>
+        <span class="title">G.E.M.邓紫棋新歌MV上线！</span>
+      </li>
+      <li class="banner">
+        <img src="./img/3.jpg" alt="魔法X偶像，育成企划！" />
+        <div class="mask"></div>
+        <span class="title">魔法X偶像，育成企划！</span>
+      </li>
+      <li class="banner">
+        <img src="./img/4.jpg" alt="一个全程让人不明觉厉的专访！" />
+        <div class="mask"></div>
+        <span class="title">一个全程让人不明觉厉的专访！</span>
+      </li>
+      <li class="banner">
+        <img src="./img/5.jpg" alt="12月22日上海见" />
+        <div class="mask"></div>
+        <span class="title">12月22日上海见</span>
+      </li>
+      <li class="banner">
+        <img src="./img/1.jpg" alt="点开有彩蛋！" />
+        <div class="mask"></div>
+        <span class="title">点开有彩蛋！</span>
+      </li>
+    </ul>
+    <ul class="index-list">
+      <li class="index active"></li>
+      <li class="index"></li>
+      <li class="index"></li>
+      <li class="index"></li>
+      <li class="index"></li>
+    </ul>
+  </div>
+  <script src="./data-videoList.js"></script>
+  <script src="./index.js"></script>
+  <script>
+    video.init({
+      el: document.getElementById('app'),
+      videoList: videoList,
+    })
+  </script>
+    <script>
+      banner.init()
+    </script>
+  
+
+  <!-- <script src="./index.js"></script> -->
+</body>
+</html>
